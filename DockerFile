@@ -1,13 +1,9 @@
-FROM php:7.3-apache-stretch
+FROM composer:1.9.0 as build
+WORKDIR /app
 COPY . /app
+RUN composer global require hirak/prestissimo && composer install
 
-RUN  apt-get update \
-  && apt-get install -y wget
-
-RUN sh -c "wget http://getcomposer.org/composer.phar && chmod a+x composer.phar && mv composer.phar /usr/local/bin/composer"
-RUN cd /app && \
-    /usr/local/bin/composer install --no-dev
-
+FROM php:7.3-apache-stretch
 RUN docker-php-ext-install pdo pdo_mysql
 
 EXPOSE 8080
