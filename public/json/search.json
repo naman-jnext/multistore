@@ -1,0 +1,74 @@
+[
+    {
+        "label": "Customers > Detail",
+        "url": "/Customers/Detail"
+    },
+    {
+        "label": "Customers > List",
+        "url": "/Customers/List"
+    },
+    {
+        "label": "Dashboard",
+        "url": "/Dashboard"
+    },
+    {
+        "label": "Discount",
+        "url": "/Discount"
+    },
+    {
+        "label": "Orders > Detail",
+        "url": "/Orders/Detail"
+    },
+    {
+        "label": "Orders > List",
+        "url": "/Orders/List"
+    },
+    {
+        "label": "Products > Detail",
+        "url": "/Products/Detail"
+    },
+    {
+        "label": "Products > List",
+        "url": "/Products/List"
+    },
+    {
+        "label": "Settings > General",
+        "url": "/Settings/General"
+    },
+    {
+        "label": "Settings",
+        "url": "/Settings"
+    },
+    {
+        "label": "Shipping",
+        "url": "/Shipping"
+    },
+    {
+        "label": "Storefront > Cart",
+        "url": "/Storefront/Cart"
+    },
+    {
+        "label": "Storefront > Categories",
+        "url": "/Storefront/Categories"
+    },
+    {
+        "label": "Storefront > Checkout",
+        "url": "/Storefront/Checkout"
+    },
+    {
+        "label": "Storefront > Detail",
+        "url": "/Storefront/Detail"
+    },
+    {
+        "label": "Storefront > Filters",
+        "url": "/Storefront/Filters"
+    },
+    {
+        "label": "Storefront > Home",
+        "url": "/Storefront/Home"
+    },
+    {
+        "label": "Storefront > Invoice",
+        "url": "/Storefront/Invoice"
+    }
+]
